@@ -14,7 +14,7 @@ class Autor(models.Model):
     class Meta:
         db_table = 'T001Autor'
         verbose_name = 'Autor'
-        verbose_name_plural = 'Autores'
+        verbose_name_plural = 'autores'
 
 class Editorial(models.Model):
     id_editorial = models.AutoField(primary_key=True, editable=False, db_column='T002IdEditorial')
@@ -29,7 +29,7 @@ class Editorial(models.Model):
     class Meta:
         db_table = 'T002Editorial'
         verbose_name = 'Editorial'
-        verbose_name_plural = 'Editoriales'   
+        verbose_name_plural = 'editoriales'   
 
 
           
@@ -50,7 +50,7 @@ class Libro(models.Model):
     class Meta:
         db_table = 'T004Libro'
         verbose_name = 'Libro'
-        verbose_name_plural = 'Libros'
+        verbose_name_plural = 'libros'
 
 
 
@@ -72,7 +72,7 @@ class Prestamo(models.Model):
     class Meta:
         db_table = 'T005Prestamo'
         verbose_name = 'Prestamo'
-        verbose_name_plural = 'Prestamos'
+        verbose_name_plural = 'prestamos'
 
 
 
@@ -89,7 +89,7 @@ class Miembro(models.Model):
     class Meta:
         db_table = 'T003Miembro'
         verbose_name = 'Miembro'
-        verbose_name_plural = 'Miembros'
+        verbose_name_plural = 'miembros'
 
 
 
